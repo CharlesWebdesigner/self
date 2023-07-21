@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Contact | Me</title>
+</head>
+<body>
+    <header class="countainer" id="home1">
+        <h2><a href="Home.html"><span class="highlight">{Charlow}</span></a></h2>
+        <div class="countainer">
+        <nav id="menu">
+            <ul >
+                <li ><a  href="../Home.html">Home</a></li>
+                <li ><a  href="about.html">About Me</a></li>
+                <li ><a  href="project.html">Project</a></li>
+                <li ><a  href="contact.html" id="highlight">Contact</a></li>
+                </ul>
+                </nav>
+            </div>
+       </header> 
+       <section class="contact">
+        <div id="contact">
+            <secton class="address">
+                <address>
+                   <p><i class="bi bi-geo-alt"></i>Address <br> maddda centre 9<sup>th</sup> floor 341 hudson St New York</p>
+                    <p><i class="bi bi-telephone-plus"></i> Lets Talk <br> +254700011111</p>
+                    <p><i class="bi bi-envelope-at"></i> General Support <br> <a href="mail:vadizcharo@gmail.com;">Contact@gmail.com</a></p>
+                </address>
+            </secton>
+            <img src="/pics/laptop.jpg" alt=""> 
+        </div>
+        <div>
+            <form action="index.php" method="post">
+                <section class="form">
+                <table>
+                    <tr>
+                        <th colspan="2" class="highlight">Send us Message</th>
+                    </tr>
+
+                    <tr>
+                        <td><label for="name">Name*</label></td>
+                        <tr>
+                        <td><input type="text" placeholder="F.NAME" required pattern="[A-Za-z]{5,}" title="Please enter a valid Name (Min: 6 characters)" id="fname"></td>
+                        <td class="lname"><input type="text" placeholder="L.NAME" required pattern="[A-Za-z]{5,}" title="Please enter a valid Name (Min: 6 characters)" id="lname"></td>
+                    </tr>
+                    </tr>
+
+                    <tr>
+                        <td><label for="email">Email Address*</label></td>
+                        <tr colspan="2">
+                        <td><input type="email" placeholder="Your Email address here..." id="email"></td>
+                        </tr>
+                    </tr> 
+                    <tr>
+                        <td>Enter number(optional)</td>
+                        <tr>
+                            <td><input type="tel" placeholder="+2547..."></td>
+                        </tr>
+                    </tr>  
+                    <tr>
+                        <th colspan="2">Message</th>
+                        <tr>
+                            <td><input type="text" id="text"></td>
+                        </tr>
+                    </tr>
+                    <tr>
+                        <th colspan="2">  <button type="submit" id="button" onclick="sendreq">Submit<i class="bi bi-arrow-right-circle"></i></button></th>
+                    </tr>
+                </table>
+            </section>
+                    </form>
+        </div>
+       </section>
+
+       <footer>
+        <div class="countainer">
+        <h3>Follow me on:</h3>
+        <nav id="menu">
+             <ul>
+                 <li><a href=""><i class="bi bi-linkedin"></i> Linkedin</a></li>
+                 <li><a href="" ><i class="bi bi-twitter"></i> Twitter</a></li>
+                 <li><a href="https://github.com/CharlesWebdesigner" target="_blank"><i class="bi bi-github"></i> Github</a></li>
+             </ul>
+            </nav>
+            </div>
+             <br>
+             <br>
+             <div class="countainer">
+                <h3> Copyright &copy; <span id="year">2023</span></h3>
+                <nav id="menu">
+                    <ul>
+                        <li><a href="">Home |</a></li>
+                        <li><a href="">Privacy |</a></li>
+                        <li><a href="">Policy|</a></li>
+                    </ul>
+                </nav>
+             </div>
+        </footer>
+        <script src="script.js"></script>
+</body>
+</html>
